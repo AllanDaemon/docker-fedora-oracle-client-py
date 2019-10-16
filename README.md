@@ -8,3 +8,4 @@ Tags available:
 | Tag | Fedora | Python | Oracle Instant Client |
 |-----|--------|--------|-----------------------|
 | latest | 30 | 3.7 | 19.3 |
+| 30 | 30 | 3.7 | 19.3 |
