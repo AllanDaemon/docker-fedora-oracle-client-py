@@ -5,6 +5,7 @@ FROM fedora:30
 WORKDIR /opt/oracle
 
 RUN dnf -y update
+RUN dnf -y install libnsl
 RUN dnf -y install https://download.oracle.com/otn_software/linux/instantclient/193000/oracle-instantclient19.3-basic-19.3.0.0.0-1.x86_64.rpm https://download.oracle.com/otn_software/linux/instantclient/193000/oracle-instantclient19.3-sqlplus-19.3.0.0.0-1.x86_64.rpm https://download.oracle.com/otn_software/linux/instantclient/193000/oracle-instantclient19.3-tools-19.3.0.0.0-1.x86_64.rpm
 RUN dnf clean all
 
